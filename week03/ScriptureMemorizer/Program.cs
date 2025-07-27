@@ -1,5 +1,5 @@
 using System;
-
+//added a 4th class Library. This class adds the all the other classes and handles them itself. The main program calls the library class. The library has several scriptures that it randomly chooses from.
 class Program
 {
     static void Main()
