@@ -3,7 +3,7 @@ public abstract class Activity
 {
 
     private DateTime _date;
-    protected int _lengthInMinutes;
+    private int _lengthInMinutes;
 
     public Activity(DateTime date, int lengthInMinutes)
     {
