@@ -1,9 +1,12 @@
 using System;
-
-class Program
+namespace ExerciseTracker
 {
-    static void Main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Hello World! This is the ExerciseTracking Project.");
+        static void Main(string[] args)
+        {
+            ActivityManager.CreateActivities();
+
+        }   
     }
 }
